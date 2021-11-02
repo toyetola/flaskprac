@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Sample app</title>
+    </head>
+    <body>
+        <h1>{% block title%} {% endblock %}</h1>
+        <p><a href="/">Home</a></p>
+        <p><a href="/about">About</a></p>
+        <p><a href="/contact">Contact</a></p>
+        {% block content%}
+        {% endblock %}
+    </body>
+</html>
